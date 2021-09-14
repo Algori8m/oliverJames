@@ -7,7 +7,7 @@ mobileNavLinks = [...mobileNavLinks]
 desktopNavLinks = [...desktopNavLinks]
 
 let header = document.querySelector("header")
-
+let main = document.querySelector("main")
 
 
 
@@ -27,6 +27,7 @@ function headerBackground(){
         link.style.color = "black"
     })
     harmburgerOpen.style.filter = "invert(0)"
+    
     }else{
     header.style.backgroundColor = ""  
     header.style.boxShadow = ""

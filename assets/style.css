@@ -92,7 +92,7 @@ main{
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(180deg, rgb(0,0,0,0.6), rgb(0,0,0,.9)), url(./img/image.png);
+    background: linear-gradient(180deg, rgb(0,0,0,0.3), rgb(0,0,0,.7)), url(./img/image.png);
     background-size: 100%;
     flex-direction: column;
     justify-content: center;
@@ -103,15 +103,22 @@ main{
 
 .heroIntro{
     margin: 0px 0 0 0px;
-    background-color: #ffffffde;
+    background-color: #000000de;
     padding: 20px;
     line-height: 25px;
+    font-size: 1.5rem;
     margin-bottom: 20px;
+    color: white;
 }
 
 .heroIntro p{
     text-align: center;
     margin-bottom: 10px;
+}
+
+.txt{
+  border-right:.1rem solid black;
+  color: #ff9e16;
 }
 
 .heroCTA{
@@ -173,7 +180,8 @@ main{
     box-sizing: border-box;
     padding: 20px;
     overflow: hidden;
-    background-color: #ff9e16;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px 10px #e0e0e0;
 }
 
 .serviceDetails{
@@ -188,7 +196,10 @@ main{
     height: 100px;
     margin: 0 0 35px 0;
     border-radius: 50%;
-    background-color: grey;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #ffffff;
 }
 
 .serviceName{
@@ -203,8 +214,8 @@ main{
 
 .serviceLink a{
     text-decoration: none;
-    color: #ff9e16;
-    background-color: white;
+    color: white;
+    background-color: #ff9e16;
     padding: 5px;
     border-radius: 5px;
 }
@@ -270,8 +281,13 @@ main{
     width: 100px;
     height: 100px;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     border-radius: 50%;
     margin: 20px 0 20px 0;
+    border: 2px solid #ff9e16;
 }
 
 .testimonialPersonName{
@@ -558,8 +574,8 @@ main{
 
 
     .bigPic{
-        background: linear-gradient(180deg, rgb(0,0,0,0.6), rgb(0,0,0,.9)), url(./img/mobileHero.png);
-        background-position: -70px 0;
+        background: linear-gradient(180deg, rgb(0,0,0,0.2), rgb(0,0,0,.4)), url(./img/mobileHero.png);
+        background-position: -100px 0;
     }
 
     .harmburger{
@@ -606,9 +622,9 @@ main{
 
     .mobileNav img{
         position: relative;
-        top:-115px;
+        top:-165px;
         margin: 0 0 20px 0;
-        left: 90%;
+        left: 85%;
         width: 20px;
     }
 
